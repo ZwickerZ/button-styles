@@ -17,6 +17,7 @@ a {
 }
 
 /*  BUTTON STYLING BY SIZE */
+
 .btn-regular {
   font-size: 1.125rem;
   padding: .4em .75em .3em;
@@ -36,6 +37,7 @@ a {
 }
 
 /*  INDIVIDUAL BUTTON STYLE */
+
 .btn {
   color: #fff;
   background-color: #333;
@@ -57,6 +59,7 @@ a {
 }
 
 /*  BUTTON HOVER STATE */
+
 .btn:hover {
   background-color: #000;
 }
