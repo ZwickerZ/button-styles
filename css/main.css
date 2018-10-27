@@ -12,6 +12,34 @@ div {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
+/*  BUTTON STYLING BY SIZE */
 .btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
+
+/*  INDIVIDUAL BUTTON SIZE */
+.btn-primary {
   color: #fff;
+  background-color: #333;
+}
+
+.btn-subtle {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.btn-ghost {
+  color: #333;
+  border: 3px solid #333;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
 }
