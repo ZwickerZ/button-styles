@@ -12,33 +12,29 @@ div {
   text-align: center;
 }
 
-a {
+.btn {
   text-decoration: none;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
 }
 
 /*  BUTTON STYLING BY SIZE */
 
 .btn-regular {
   font-size: 1.125rem;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
 }
 
 .btn-small {
   font-size: .875rem;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
 }
 
 /*  INDIVIDUAL BUTTON STYLE */
 
-.btn {
+.btn-primary {
   color: #fff;
   background-color: #333;
 }
