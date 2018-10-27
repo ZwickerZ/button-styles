@@ -17,14 +17,26 @@ a {
 }
 
 /*  BUTTON STYLING BY SIZE */
-.btn {
+.btn-regular {
   font-size: 1.125rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
 }
 
-/*  INDIVIDUAL BUTTON SIZE */
-.btn-primary {
+.btn-small {
+  font-size: .875rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+}
+
+/*  INDIVIDUAL BUTTON STYLE */
+.btn {
   color: #fff;
   background-color: #333;
 }
@@ -42,4 +54,22 @@ a {
 .btn-warning {
   color: #fff;
   background-color: #f33;
+}
+
+/*  BUTTON HOVER STATE */
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle:hover {
+  background-color: #333;
+}
+
+.btn-ghost:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
